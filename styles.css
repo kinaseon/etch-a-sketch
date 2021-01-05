@@ -1,0 +1,39 @@
+.container {
+    display:grid;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    border: solid;
+    margin-top: 20px;
+}
+
+.grid-item {
+    border: 1px solid;
+}
+
+#sliderInput {
+    width: 40px;
+}
+
+.slider {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider > p {
+    margin-right: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls > button {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
